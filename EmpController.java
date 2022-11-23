@@ -29,8 +29,9 @@ public class EmpController {
 		logger.info("This is Second Method");
 			return "Hello Vilage World Class";
 		}
-		
-		@RequestMapping("/v3")
+	/*RQ_1361-code changes - start*/	
+		@Getmapping("/v3")
+		/*RQ_1361-code changes - End*/
 		public ArrayList load() {
         logger.info("This is Third Method");
 			return s.m1();
